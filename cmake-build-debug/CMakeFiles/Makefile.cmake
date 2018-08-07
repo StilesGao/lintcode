@@ -48,6 +48,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/LFUCache.dir/DependInfo.cmake"
+  "CMakeFiles/303_RangeSumQuery_Immutable.dir/DependInfo.cmake"
   "CMakeFiles/LintCode.dir/DependInfo.cmake"
   )

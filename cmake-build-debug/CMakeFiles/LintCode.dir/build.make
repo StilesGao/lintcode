@@ -57,38 +57,38 @@ include CMakeFiles/LintCode.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/LintCode.dir/flags.make
 
-CMakeFiles/LintCode.dir/LFUCache/LFUCache.cc.o: CMakeFiles/LintCode.dir/flags.make
-CMakeFiles/LintCode.dir/LFUCache/LFUCache.cc.o: ../LFUCache/LFUCache.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/stiles/66B0CB55B0CB29FF/linux/lintcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LintCode.dir/LFUCache/LFUCache.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LintCode.dir/LFUCache/LFUCache.cc.o -c /media/stiles/66B0CB55B0CB29FF/linux/lintcode/LFUCache/LFUCache.cc
+CMakeFiles/LintCode.dir/303_RangeSumQuery_Immutable/RangeSumQueryImmutable.cc.o: CMakeFiles/LintCode.dir/flags.make
+CMakeFiles/LintCode.dir/303_RangeSumQuery_Immutable/RangeSumQueryImmutable.cc.o: ../303_RangeSumQuery_Immutable/RangeSumQueryImmutable.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/stiles/66B0CB55B0CB29FF/linux/lintcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LintCode.dir/303_RangeSumQuery_Immutable/RangeSumQueryImmutable.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LintCode.dir/303_RangeSumQuery_Immutable/RangeSumQueryImmutable.cc.o -c /media/stiles/66B0CB55B0CB29FF/linux/lintcode/303_RangeSumQuery_Immutable/RangeSumQueryImmutable.cc
 
-CMakeFiles/LintCode.dir/LFUCache/LFUCache.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LintCode.dir/LFUCache/LFUCache.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/stiles/66B0CB55B0CB29FF/linux/lintcode/LFUCache/LFUCache.cc > CMakeFiles/LintCode.dir/LFUCache/LFUCache.cc.i
+CMakeFiles/LintCode.dir/303_RangeSumQuery_Immutable/RangeSumQueryImmutable.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LintCode.dir/303_RangeSumQuery_Immutable/RangeSumQueryImmutable.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/stiles/66B0CB55B0CB29FF/linux/lintcode/303_RangeSumQuery_Immutable/RangeSumQueryImmutable.cc > CMakeFiles/LintCode.dir/303_RangeSumQuery_Immutable/RangeSumQueryImmutable.cc.i
 
-CMakeFiles/LintCode.dir/LFUCache/LFUCache.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LintCode.dir/LFUCache/LFUCache.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/stiles/66B0CB55B0CB29FF/linux/lintcode/LFUCache/LFUCache.cc -o CMakeFiles/LintCode.dir/LFUCache/LFUCache.cc.s
+CMakeFiles/LintCode.dir/303_RangeSumQuery_Immutable/RangeSumQueryImmutable.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LintCode.dir/303_RangeSumQuery_Immutable/RangeSumQueryImmutable.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/stiles/66B0CB55B0CB29FF/linux/lintcode/303_RangeSumQuery_Immutable/RangeSumQueryImmutable.cc -o CMakeFiles/LintCode.dir/303_RangeSumQuery_Immutable/RangeSumQueryImmutable.cc.s
 
-CMakeFiles/LintCode.dir/LFUCache/LFUCache.cc.o.requires:
+CMakeFiles/LintCode.dir/303_RangeSumQuery_Immutable/RangeSumQueryImmutable.cc.o.requires:
 
-.PHONY : CMakeFiles/LintCode.dir/LFUCache/LFUCache.cc.o.requires
+.PHONY : CMakeFiles/LintCode.dir/303_RangeSumQuery_Immutable/RangeSumQueryImmutable.cc.o.requires
 
-CMakeFiles/LintCode.dir/LFUCache/LFUCache.cc.o.provides: CMakeFiles/LintCode.dir/LFUCache/LFUCache.cc.o.requires
-	$(MAKE) -f CMakeFiles/LintCode.dir/build.make CMakeFiles/LintCode.dir/LFUCache/LFUCache.cc.o.provides.build
-.PHONY : CMakeFiles/LintCode.dir/LFUCache/LFUCache.cc.o.provides
+CMakeFiles/LintCode.dir/303_RangeSumQuery_Immutable/RangeSumQueryImmutable.cc.o.provides: CMakeFiles/LintCode.dir/303_RangeSumQuery_Immutable/RangeSumQueryImmutable.cc.o.requires
+	$(MAKE) -f CMakeFiles/LintCode.dir/build.make CMakeFiles/LintCode.dir/303_RangeSumQuery_Immutable/RangeSumQueryImmutable.cc.o.provides.build
+.PHONY : CMakeFiles/LintCode.dir/303_RangeSumQuery_Immutable/RangeSumQueryImmutable.cc.o.provides
 
-CMakeFiles/LintCode.dir/LFUCache/LFUCache.cc.o.provides.build: CMakeFiles/LintCode.dir/LFUCache/LFUCache.cc.o
+CMakeFiles/LintCode.dir/303_RangeSumQuery_Immutable/RangeSumQueryImmutable.cc.o.provides.build: CMakeFiles/LintCode.dir/303_RangeSumQuery_Immutable/RangeSumQueryImmutable.cc.o
 
 
 # Object files for target LintCode
 LintCode_OBJECTS = \
-"CMakeFiles/LintCode.dir/LFUCache/LFUCache.cc.o"
+"CMakeFiles/LintCode.dir/303_RangeSumQuery_Immutable/RangeSumQueryImmutable.cc.o"
 
 # External object files for target LintCode
 LintCode_EXTERNAL_OBJECTS =
 
-../lib/libLintCode.so: CMakeFiles/LintCode.dir/LFUCache/LFUCache.cc.o
+../lib/libLintCode.so: CMakeFiles/LintCode.dir/303_RangeSumQuery_Immutable/RangeSumQueryImmutable.cc.o
 ../lib/libLintCode.so: CMakeFiles/LintCode.dir/build.make
 ../lib/libLintCode.so: CMakeFiles/LintCode.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/stiles/66B0CB55B0CB29FF/linux/lintcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library ../lib/libLintCode.so"
@@ -99,7 +99,7 @@ CMakeFiles/LintCode.dir/build: ../lib/libLintCode.so
 
 .PHONY : CMakeFiles/LintCode.dir/build
 
-CMakeFiles/LintCode.dir/requires: CMakeFiles/LintCode.dir/LFUCache/LFUCache.cc.o.requires
+CMakeFiles/LintCode.dir/requires: CMakeFiles/LintCode.dir/303_RangeSumQuery_Immutable/RangeSumQueryImmutable.cc.o.requires
 
 .PHONY : CMakeFiles/LintCode.dir/requires
 

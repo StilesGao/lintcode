@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -O3 -DNDEBUG  -rdynamic CMakeFiles/303_RangeSumQuery_Immutable.dir/303_RangeSumQuery_Immutable/RangeSumQueryImmutable.cc.o  -o LFUCache/303_RangeSumQuery_Immutable -Wl,-rpath,/media/stiles/66B0CB55B0CB29FF/linux/lintcode/lib ../lib/libLintCode.so 

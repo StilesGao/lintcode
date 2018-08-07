@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/LintCode.dir/LFUCache/LFUCache.cc.o"
+  "CMakeFiles/LintCode.dir/303_RangeSumQuery_Immutable/RangeSumQueryImmutable.cc.o"
   "../lib/libLintCode.pdb"
   "../lib/libLintCode.so"
 )

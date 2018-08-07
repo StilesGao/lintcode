@@ -60,39 +60,39 @@ CMAKE_SOURCE_DIR = /media/stiles/66B0CB55B0CB29FF/linux/lintcode
 CMAKE_BINARY_DIR = /media/stiles/66B0CB55B0CB29FF/linux/lintcode/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/LFUCache.dir
+# Target rules for target CMakeFiles/303_RangeSumQuery_Immutable.dir
 
 # All Build rule for target.
-CMakeFiles/LFUCache.dir/all: CMakeFiles/LintCode.dir/all
-	$(MAKE) -f CMakeFiles/LFUCache.dir/build.make CMakeFiles/LFUCache.dir/depend
-	$(MAKE) -f CMakeFiles/LFUCache.dir/build.make CMakeFiles/LFUCache.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/stiles/66B0CB55B0CB29FF/linux/lintcode/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target LFUCache"
-.PHONY : CMakeFiles/LFUCache.dir/all
+CMakeFiles/303_RangeSumQuery_Immutable.dir/all: CMakeFiles/LintCode.dir/all
+	$(MAKE) -f CMakeFiles/303_RangeSumQuery_Immutable.dir/build.make CMakeFiles/303_RangeSumQuery_Immutable.dir/depend
+	$(MAKE) -f CMakeFiles/303_RangeSumQuery_Immutable.dir/build.make CMakeFiles/303_RangeSumQuery_Immutable.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/stiles/66B0CB55B0CB29FF/linux/lintcode/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target 303_RangeSumQuery_Immutable"
+.PHONY : CMakeFiles/303_RangeSumQuery_Immutable.dir/all
 
 # Include target in all.
-all: CMakeFiles/LFUCache.dir/all
+all: CMakeFiles/303_RangeSumQuery_Immutable.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/LFUCache.dir/rule: cmake_check_build_system
+CMakeFiles/303_RangeSumQuery_Immutable.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /media/stiles/66B0CB55B0CB29FF/linux/lintcode/cmake-build-debug/CMakeFiles 4
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/LFUCache.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/303_RangeSumQuery_Immutable.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /media/stiles/66B0CB55B0CB29FF/linux/lintcode/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/LFUCache.dir/rule
+.PHONY : CMakeFiles/303_RangeSumQuery_Immutable.dir/rule
 
 # Convenience name for target.
-LFUCache: CMakeFiles/LFUCache.dir/rule
+303_RangeSumQuery_Immutable: CMakeFiles/303_RangeSumQuery_Immutable.dir/rule
 
-.PHONY : LFUCache
-
-# clean rule for target.
-CMakeFiles/LFUCache.dir/clean:
-	$(MAKE) -f CMakeFiles/LFUCache.dir/build.make CMakeFiles/LFUCache.dir/clean
-.PHONY : CMakeFiles/LFUCache.dir/clean
+.PHONY : 303_RangeSumQuery_Immutable
 
 # clean rule for target.
-clean: CMakeFiles/LFUCache.dir/clean
+CMakeFiles/303_RangeSumQuery_Immutable.dir/clean:
+	$(MAKE) -f CMakeFiles/303_RangeSumQuery_Immutable.dir/build.make CMakeFiles/303_RangeSumQuery_Immutable.dir/clean
+.PHONY : CMakeFiles/303_RangeSumQuery_Immutable.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/303_RangeSumQuery_Immutable.dir/clean
 
 .PHONY : clean
 

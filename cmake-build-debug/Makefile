@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named LFUCache
+# Target rules for targets named 303_RangeSumQuery_Immutable
 
 # Build rule for target.
-LFUCache: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 LFUCache
-.PHONY : LFUCache
+303_RangeSumQuery_Immutable: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 303_RangeSumQuery_Immutable
+.PHONY : 303_RangeSumQuery_Immutable
 
 # fast build rule for target.
-LFUCache/fast:
-	$(MAKE) -f CMakeFiles/LFUCache.dir/build.make CMakeFiles/LFUCache.dir/build
-.PHONY : LFUCache/fast
+303_RangeSumQuery_Immutable/fast:
+	$(MAKE) -f CMakeFiles/303_RangeSumQuery_Immutable.dir/build.make CMakeFiles/303_RangeSumQuery_Immutable.dir/build
+.PHONY : 303_RangeSumQuery_Immutable/fast
 
 #=============================================================================
 # Target rules for targets named LintCode
@@ -136,35 +136,35 @@ LintCode/fast:
 	$(MAKE) -f CMakeFiles/LintCode.dir/build.make CMakeFiles/LintCode.dir/build
 .PHONY : LintCode/fast
 
-LFUCache/LFUCache.o: LFUCache/LFUCache.cc.o
+303_RangeSumQuery_Immutable/RangeSumQueryImmutable.o: 303_RangeSumQuery_Immutable/RangeSumQueryImmutable.cc.o
 
-.PHONY : LFUCache/LFUCache.o
+.PHONY : 303_RangeSumQuery_Immutable/RangeSumQueryImmutable.o
 
 # target to build an object file
-LFUCache/LFUCache.cc.o:
-	$(MAKE) -f CMakeFiles/LFUCache.dir/build.make CMakeFiles/LFUCache.dir/LFUCache/LFUCache.cc.o
-	$(MAKE) -f CMakeFiles/LintCode.dir/build.make CMakeFiles/LintCode.dir/LFUCache/LFUCache.cc.o
-.PHONY : LFUCache/LFUCache.cc.o
+303_RangeSumQuery_Immutable/RangeSumQueryImmutable.cc.o:
+	$(MAKE) -f CMakeFiles/303_RangeSumQuery_Immutable.dir/build.make CMakeFiles/303_RangeSumQuery_Immutable.dir/303_RangeSumQuery_Immutable/RangeSumQueryImmutable.cc.o
+	$(MAKE) -f CMakeFiles/LintCode.dir/build.make CMakeFiles/LintCode.dir/303_RangeSumQuery_Immutable/RangeSumQueryImmutable.cc.o
+.PHONY : 303_RangeSumQuery_Immutable/RangeSumQueryImmutable.cc.o
 
-LFUCache/LFUCache.i: LFUCache/LFUCache.cc.i
+303_RangeSumQuery_Immutable/RangeSumQueryImmutable.i: 303_RangeSumQuery_Immutable/RangeSumQueryImmutable.cc.i
 
-.PHONY : LFUCache/LFUCache.i
+.PHONY : 303_RangeSumQuery_Immutable/RangeSumQueryImmutable.i
 
 # target to preprocess a source file
-LFUCache/LFUCache.cc.i:
-	$(MAKE) -f CMakeFiles/LFUCache.dir/build.make CMakeFiles/LFUCache.dir/LFUCache/LFUCache.cc.i
-	$(MAKE) -f CMakeFiles/LintCode.dir/build.make CMakeFiles/LintCode.dir/LFUCache/LFUCache.cc.i
-.PHONY : LFUCache/LFUCache.cc.i
+303_RangeSumQuery_Immutable/RangeSumQueryImmutable.cc.i:
+	$(MAKE) -f CMakeFiles/303_RangeSumQuery_Immutable.dir/build.make CMakeFiles/303_RangeSumQuery_Immutable.dir/303_RangeSumQuery_Immutable/RangeSumQueryImmutable.cc.i
+	$(MAKE) -f CMakeFiles/LintCode.dir/build.make CMakeFiles/LintCode.dir/303_RangeSumQuery_Immutable/RangeSumQueryImmutable.cc.i
+.PHONY : 303_RangeSumQuery_Immutable/RangeSumQueryImmutable.cc.i
 
-LFUCache/LFUCache.s: LFUCache/LFUCache.cc.s
+303_RangeSumQuery_Immutable/RangeSumQueryImmutable.s: 303_RangeSumQuery_Immutable/RangeSumQueryImmutable.cc.s
 
-.PHONY : LFUCache/LFUCache.s
+.PHONY : 303_RangeSumQuery_Immutable/RangeSumQueryImmutable.s
 
 # target to generate assembly for a file
-LFUCache/LFUCache.cc.s:
-	$(MAKE) -f CMakeFiles/LFUCache.dir/build.make CMakeFiles/LFUCache.dir/LFUCache/LFUCache.cc.s
-	$(MAKE) -f CMakeFiles/LintCode.dir/build.make CMakeFiles/LintCode.dir/LFUCache/LFUCache.cc.s
-.PHONY : LFUCache/LFUCache.cc.s
+303_RangeSumQuery_Immutable/RangeSumQueryImmutable.cc.s:
+	$(MAKE) -f CMakeFiles/303_RangeSumQuery_Immutable.dir/build.make CMakeFiles/303_RangeSumQuery_Immutable.dir/303_RangeSumQuery_Immutable/RangeSumQueryImmutable.cc.s
+	$(MAKE) -f CMakeFiles/LintCode.dir/build.make CMakeFiles/LintCode.dir/303_RangeSumQuery_Immutable/RangeSumQueryImmutable.cc.s
+.PHONY : 303_RangeSumQuery_Immutable/RangeSumQueryImmutable.cc.s
 
 # Help Target
 help:
@@ -173,12 +173,12 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
-	@echo "... LFUCache"
+	@echo "... 303_RangeSumQuery_Immutable"
 	@echo "... rebuild_cache"
 	@echo "... LintCode"
-	@echo "... LFUCache/LFUCache.o"
-	@echo "... LFUCache/LFUCache.i"
-	@echo "... LFUCache/LFUCache.s"
+	@echo "... 303_RangeSumQuery_Immutable/RangeSumQueryImmutable.o"
+	@echo "... 303_RangeSumQuery_Immutable/RangeSumQueryImmutable.i"
+	@echo "... 303_RangeSumQuery_Immutable/RangeSumQueryImmutable.s"
 .PHONY : help
 
 

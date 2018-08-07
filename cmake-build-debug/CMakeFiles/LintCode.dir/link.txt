@@ -1,1 +1,1 @@
-/usr/bin/c++ -fPIC  -std=c++11 -O3 -DNDEBUG  -shared -Wl,-soname,libLintCode.so -o ../lib/libLintCode.so CMakeFiles/LintCode.dir/LFUCache/LFUCache.cc.o 
+/usr/bin/c++ -fPIC  -std=c++11 -O3 -DNDEBUG  -shared -Wl,-soname,libLintCode.so -o ../lib/libLintCode.so CMakeFiles/LintCode.dir/303_RangeSumQuery_Immutable/RangeSumQueryImmutable.cc.o 
