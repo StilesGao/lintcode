@@ -30,10 +30,16 @@ LIST(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake_modules)
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/lib)
 
 add_library(${PROJECT_NAME} SHARED
-LFUCache/LFUCache.cc)
+#LFUCache/LFUCache.cc
+        303_RangeSumQuery_Immutable/RangeSumQueryImmutable.cc)
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_BINARY_DIR}/LFUCache)
 
-add_executable(LFUCache LFUCache/LFUCache.cc)
-target_link_libraries(LFUCache ${PROJECT_NAME})
+#add_executable(LFUCache LFUCache/LFUCache.cc)
+#target_link_libraries(LFUCache ${PROJECT_NAME})
+
+add_executable(303_RangeSumQuery_Immutable 303_RangeSumQuery_Immutable/RangeSumQueryImmutable.cc)
+target_link_libraries(303_RangeSumQuery_Immutable ${PROJECT_NAME})
+
+
 
